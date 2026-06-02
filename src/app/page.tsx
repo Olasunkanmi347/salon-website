@@ -15,29 +15,7 @@ export default function ThonetteSalon() {
         Special Offer! Get 20% off on all services this month.
       </div>
 
-      <nav className="flex items-center justify-between px-6 md:px-12 py-6 sticky top-0 bg-white/90 backdrop-blur-sm z-50 border-b border-gray-100">
-        <div className="h-10 w-20 relative">
-          <Image 
-            src="/woman.png" 
-            alt="Thonette salon-logo" 
-            fill 
-            className="object-contain"
-          />
-        </div>
-            
-        <ul className="hidden md:flex gap-8 text-sm font-bold text-gray-700 uppercase tracking-tighter mini-h-screen">
-          <li><Link href="/#home" className="hover:text-black transition-colors">Home</Link></li>
-          <li><Link href="/#about" className="hover:text-black transition-colors">About Us</Link></li>
-          <li><Link href="/#services" className="hover:text-black transition-colors">Our Services</Link></li>
-          <li><Link href="/#packages" className="hover:text-black transition-colors">Packages</Link></li>
-          <li><Link href="/#gallery" className="hover:text-black transition-colors">Gallery</Link></li>
-          <li><Link href="/wig-styling" className="hover:text-black transition-colors">Wigs & Bridal</Link></li>
-          <li><Link href="/wigs" className="hover:text-black transition-colors">Wigs Gallery</Link></li>
-          <li><Link href="/cart" className="hover:text-black transition-colors">Cart</Link></li>
-          <li><Link href="/#contact" className="hover:text-black transition-colors">Contact Us</Link></li>
-        </ul>
-        <Link href="/booking" className="bg-[#2D2D2D] text-white px-6 py-3 text-[10px] uppercase font-bold hover:bg-black transition-colors rounded-xl">Online Booking</Link>
-      </nav>
+      {/* Navbar moved to shared layout */}
 
   
       <section className="px-6 md:px-12 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
