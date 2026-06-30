@@ -55,7 +55,7 @@ export default function TodoList() {
   return (
     <div className="min-h-screen bg-slate-900 text-slate-100 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-slate-800/60 backdrop-blur-md border border-slate-700/50 rounded-2xl p-6 shadow-xl">
-        <h1 className="text-2xl font-bold text-center bg-gradient-to-r gold bg-clip-text text-transparent from-sky-400 to-indigo-500 mb-6">
+        <h1 className="text-2xl font-bold text-center bg-gradient-to-r; gold bg-clip-text text-transparent from-sky-400 to-indigo-500 mb-6">
           Task Manager
         </h1>
 
